@@ -3,5 +3,5 @@
 */logs/!index.html
 */cache/*
 */cache/!index.html
-/nbproject
-/database temp files
+nbproject/*
+database temp files/*
