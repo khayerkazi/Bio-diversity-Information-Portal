@@ -1,0 +1,10 @@
+date 16-12-2011:
+
+->Change The Database blobs into varchar2 to store the image links only .
+
+->hta access texts
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1
